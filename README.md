@@ -8,7 +8,8 @@
 
 ### Upload example
 
-```curl localhost:8000/graphql \
+```
+curl localhost:8000/graphql \
   -F operations='{ "query": "mutation ($file: Upload!) { uploadFile(id: 89283198231, file: $file) {id, success, filename, location, mimetype } }", "variables": { "file": null } }' \
   -F map='{ "0": ["variables.file"] }' \
   -F 0=@testImage.jpg
