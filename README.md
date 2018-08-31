@@ -1,4 +1,4 @@
-## Simple Upload Service
+## Simple Image Upload Service
 
 ### Setup
 1) Make sure that you have an AWS account as well as your `~/.aws/credentials` set up
