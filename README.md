@@ -13,3 +13,6 @@
   -F map='{ "0": ["variables.file"] }' \
   -F 0=@testImage.jpg
   ``` 
+  
+### TODO
+Create a config file for bucket names ;)
